@@ -24,7 +24,7 @@ class TransactionsRepository {
     return this.transactions;
   }
 
-  public setBalance(balance: Balance) {
+  public setBalance(balance: Balance): void {
     this.balance = balance;
   }
 
